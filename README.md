@@ -8,7 +8,7 @@ In this project, you'll be analyzing the on-time performance of buses to look fo
 The main variable you will be studying in this project is **adherence**, which compares the actual departure time to the scheduled time and is included in the ADHERENCE column. A negative adherence value means that a bus left a time point late and a positive adherence indicates that the bus left the time point early. Buses with adherence values beyond negative 6 are generally considered late and beyond positive 1 are considered early. However, there is some additional logic where the staff applies waivers to allow early departures, such as an express bus that has already picked up everyone at a park-and-ride lot and is only dropping people off at the remaining stops, and also allows for early timepoint records for all records where TRIP_EDGE = 2 (end of trip), since it is not a problem if a bus ends its trip early as long as it didn't pass other timepoints early along the way. **Note:** When determining whether a bus is early or late, it is advised that you use the 'ADJUSTED_EARLY_COUNT', 'ADJUSTED_LATE_COUNT', and 'ADJUSTED_ONTIME_COUNT' columns in order to account for the adjustments.
 
 Goals of this project:
-1. What is the overall on-time performance, and what do the overall distribution of adherence look like? 
+1. What is the overall on-time performance, and what does the overall distribution of adherence look like? 
 2. How does direction of travel, route, or location affect the on-time performance?
 3. How does time of day or day of week affect on-time performance?
 4. How much of a factor does the driver have on on-time performance? The driver is indicated by the OPERATOR variable.
