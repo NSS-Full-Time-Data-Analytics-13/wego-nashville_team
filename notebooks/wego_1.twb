@@ -1,0 +1,1018 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0524.1403                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0524.1403)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Headway Data, 8-1-2023 to 9-30-2023' inline='true' name='federated.1r6dnry16wv94n1ghsqh60egvgwc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Headway Data, 8-1-2023 to 9-30-2023' name='textscan.1im586l08hrau819vspte0jozhq5'>
+            <connection class='textscan' directory='C:/Users/TitanUp/Documents/NSS/Bootcamp/python/projects/wego-nashville_team/data' filename='Headway Data, 8-1-2023 to 9-30-2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1im586l08hrau819vspte0jozhq5' name='Headway Data, 8-1-2023 to 9-30-2023.csv' table='[Headway Data, 8-1-2023 to 9-30-2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='CALENDAR_ID' ordinal='0' />
+            <column datatype='integer' name='SERVICE_ABBR' ordinal='1' />
+            <column datatype='integer' name='ADHERENCE_ID' ordinal='2' />
+            <column datatype='date' name='DATE' ordinal='3' />
+            <column datatype='integer' name='ROUTE_ABBR' ordinal='4' />
+            <column datatype='integer' name='BLOCK_ABBR' ordinal='5' />
+            <column datatype='integer' name='OPERATOR' ordinal='6' />
+            <column datatype='integer' name='TRIP_ID' ordinal='7' />
+            <column datatype='integer' name='OVERLOAD_ID' ordinal='8' />
+            <column datatype='string' name='ROUTE_DIRECTION_NAME' ordinal='9' />
+            <column datatype='string' name='TIME_POINT_ABBR' ordinal='10' />
+            <column datatype='real' name='ROUTE_STOP_SEQUENCE' ordinal='11' />
+            <column datatype='integer' name='TRIP_EDGE' ordinal='12' />
+            <column datatype='real' name='LATITUDE' ordinal='13' />
+            <column datatype='real' name='LONGITUDE' ordinal='14' />
+            <column datatype='datetime' name='SCHEDULED_TIME' ordinal='15' />
+            <column datatype='datetime' name='ACTUAL_ARRIVAL_TIME' ordinal='16' />
+            <column datatype='datetime' name='ACTUAL_DEPARTURE_TIME' ordinal='17' />
+            <column datatype='real' name='ADHERENCE' ordinal='18' />
+            <column datatype='real' name='SCHEDULED_HDWY' ordinal='19' />
+            <column datatype='real' name='ACTUAL_HDWY' ordinal='20' />
+            <column datatype='real' name='HDWY_DEV' ordinal='21' />
+            <column datatype='integer' name='ADJUSTED_EARLY_COUNT' ordinal='22' />
+            <column datatype='integer' name='ADJUSTED_LATE_COUNT' ordinal='23' />
+            <column datatype='integer' name='ADJUSTED_ONTIME_COUNT' ordinal='24' />
+            <column datatype='integer' name='STOP_CANCELLED' ordinal='25' />
+            <column datatype='real' name='PREV_SCHED_STOP_CANCELLED' ordinal='26' />
+            <column datatype='integer' name='IS_RELIEF' ordinal='27' />
+            <column datatype='real' name='DWELL_IN_MINS' ordinal='28' />
+            <column datatype='real' name='SCHEDULED_LAYOVER_MINUTES' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1im586l08hrau819vspte0jozhq5' name='Headway Data, 8-1-2023 to 9-30-2023.csv' table='[Headway Data, 8-1-2023 to 9-30-2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='CALENDAR_ID' ordinal='0' />
+            <column datatype='integer' name='SERVICE_ABBR' ordinal='1' />
+            <column datatype='integer' name='ADHERENCE_ID' ordinal='2' />
+            <column datatype='date' name='DATE' ordinal='3' />
+            <column datatype='integer' name='ROUTE_ABBR' ordinal='4' />
+            <column datatype='integer' name='BLOCK_ABBR' ordinal='5' />
+            <column datatype='integer' name='OPERATOR' ordinal='6' />
+            <column datatype='integer' name='TRIP_ID' ordinal='7' />
+            <column datatype='integer' name='OVERLOAD_ID' ordinal='8' />
+            <column datatype='string' name='ROUTE_DIRECTION_NAME' ordinal='9' />
+            <column datatype='string' name='TIME_POINT_ABBR' ordinal='10' />
+            <column datatype='real' name='ROUTE_STOP_SEQUENCE' ordinal='11' />
+            <column datatype='integer' name='TRIP_EDGE' ordinal='12' />
+            <column datatype='real' name='LATITUDE' ordinal='13' />
+            <column datatype='real' name='LONGITUDE' ordinal='14' />
+            <column datatype='datetime' name='SCHEDULED_TIME' ordinal='15' />
+            <column datatype='datetime' name='ACTUAL_ARRIVAL_TIME' ordinal='16' />
+            <column datatype='datetime' name='ACTUAL_DEPARTURE_TIME' ordinal='17' />
+            <column datatype='real' name='ADHERENCE' ordinal='18' />
+            <column datatype='real' name='SCHEDULED_HDWY' ordinal='19' />
+            <column datatype='real' name='ACTUAL_HDWY' ordinal='20' />
+            <column datatype='real' name='HDWY_DEV' ordinal='21' />
+            <column datatype='integer' name='ADJUSTED_EARLY_COUNT' ordinal='22' />
+            <column datatype='integer' name='ADJUSTED_LATE_COUNT' ordinal='23' />
+            <column datatype='integer' name='ADJUSTED_ONTIME_COUNT' ordinal='24' />
+            <column datatype='integer' name='STOP_CANCELLED' ordinal='25' />
+            <column datatype='real' name='PREV_SCHED_STOP_CANCELLED' ordinal='26' />
+            <column datatype='integer' name='IS_RELIEF' ordinal='27' />
+            <column datatype='real' name='DWELL_IN_MINS' ordinal='28' />
+            <column datatype='real' name='SCHEDULED_LAYOVER_MINUTES' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CALENDAR_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CALENDAR_ID]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>CALENDAR_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SERVICE_ABBR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SERVICE_ABBR]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>SERVICE_ABBR</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADHERENCE_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADHERENCE_ID]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ADHERENCE_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DATE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>DATE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROUTE_ABBR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ROUTE_ABBR]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ROUTE_ABBR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLOCK_ABBR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BLOCK_ABBR]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>BLOCK_ABBR</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OPERATOR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OPERATOR]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>OPERATOR</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRIP_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRIP_ID]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>TRIP_ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVERLOAD_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OVERLOAD_ID]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>OVERLOAD_ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROUTE_DIRECTION_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ROUTE_DIRECTION_NAME]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ROUTE_DIRECTION_NAME</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME_POINT_ABBR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIME_POINT_ABBR]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>TIME_POINT_ABBR</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROUTE_STOP_SEQUENCE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROUTE_STOP_SEQUENCE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ROUTE_STOP_SEQUENCE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRIP_EDGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRIP_EDGE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>TRIP_EDGE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATITUDE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>LATITUDE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHEDULED_TIME</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[SCHEDULED_TIME]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>SCHEDULED_TIME</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTUAL_ARRIVAL_TIME</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[ACTUAL_ARRIVAL_TIME]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ACTUAL_ARRIVAL_TIME</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTUAL_DEPARTURE_TIME</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[ACTUAL_DEPARTURE_TIME]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ACTUAL_DEPARTURE_TIME</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADHERENCE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ADHERENCE]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ADHERENCE</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHEDULED_HDWY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SCHEDULED_HDWY]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>SCHEDULED_HDWY</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTUAL_HDWY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ACTUAL_HDWY]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ACTUAL_HDWY</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HDWY_DEV</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HDWY_DEV]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>HDWY_DEV</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADJUSTED_EARLY_COUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADJUSTED_EARLY_COUNT]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ADJUSTED_EARLY_COUNT</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADJUSTED_LATE_COUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADJUSTED_LATE_COUNT]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ADJUSTED_LATE_COUNT</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADJUSTED_ONTIME_COUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADJUSTED_ONTIME_COUNT]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>ADJUSTED_ONTIME_COUNT</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STOP_CANCELLED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STOP_CANCELLED]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>STOP_CANCELLED</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREV_SCHED_STOP_CANCELLED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PREV_SCHED_STOP_CANCELLED]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>PREV_SCHED_STOP_CANCELLED</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IS_RELIEF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IS_RELIEF]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>IS_RELIEF</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DWELL_IN_MINS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DWELL_IN_MINS]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>DWELL_IN_MINS</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHEDULED_LAYOVER_MINUTES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SCHEDULED_LAYOVER_MINUTES]</local-name>
+            <parent-name>[Headway Data, 8-1-2023 to 9-30-2023.csv]</parent-name>
+            <remote-alias>SCHEDULED_LAYOVER_MINUTES</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Actual Arrival Time' datatype='datetime' name='[ACTUAL_ARRIVAL_TIME]' role='dimension' type='ordinal' />
+      <column caption='Actual Departure Time' datatype='datetime' name='[ACTUAL_DEPARTURE_TIME]' role='dimension' type='ordinal' />
+      <column caption='Actual Hdwy' datatype='real' name='[ACTUAL_HDWY]' role='measure' type='quantitative' />
+      <column caption='Adherence' datatype='real' name='[ADHERENCE]' role='measure' type='quantitative' />
+      <column caption='Adherence Id' datatype='integer' name='[ADHERENCE_ID]' role='dimension' type='ordinal' />
+      <column caption='Adjusted Early Count' datatype='integer' name='[ADJUSTED_EARLY_COUNT]' role='measure' type='quantitative' />
+      <column caption='Adjusted Late Count' datatype='integer' name='[ADJUSTED_LATE_COUNT]' role='measure' type='quantitative' />
+      <column caption='Adjusted Ontime Count' datatype='integer' name='[ADJUSTED_ONTIME_COUNT]' role='measure' type='quantitative' />
+      <column caption='Block Abbr' datatype='integer' name='[BLOCK_ABBR]' role='measure' type='quantitative' />
+      <column caption='Calendar Id' datatype='integer' name='[CALENDAR_ID]' role='dimension' type='ordinal' />
+      <column caption='on time performance' datatype='real' name='[Calculation_1838313116510806020]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[ADJUSTED_ONTIME_COUNT]*100/[ADJUSTED_ONTIME_COUNT]+[ADJUSTED_LATE_COUNT]+[ADJUSTED_EARLY_COUNT]' />
+      </column>
+      <column caption='Date' datatype='date' name='[DATE]' role='dimension' type='ordinal' />
+      <column caption='Dwell In Mins' datatype='real' name='[DWELL_IN_MINS]' role='measure' type='quantitative' />
+      <column caption='Hdwy Dev' datatype='real' name='[HDWY_DEV]' role='measure' type='quantitative' />
+      <column caption='Is Relief' datatype='integer' name='[IS_RELIEF]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Operator' datatype='integer' name='[OPERATOR]' role='measure' type='quantitative' />
+      <column caption='Overload Id' datatype='integer' name='[OVERLOAD_ID]' role='dimension' type='ordinal' />
+      <column caption='Prev Sched Stop Cancelled' datatype='real' name='[PREV_SCHED_STOP_CANCELLED]' role='measure' type='quantitative' />
+      <column caption='Route Abbr' datatype='integer' name='[ROUTE_ABBR]' role='measure' type='quantitative' />
+      <column caption='Route Direction Name' datatype='string' name='[ROUTE_DIRECTION_NAME]' role='dimension' type='nominal' />
+      <column caption='Route Stop Sequence' datatype='real' name='[ROUTE_STOP_SEQUENCE]' role='measure' type='quantitative' />
+      <column caption='Scheduled Hdwy' datatype='real' name='[SCHEDULED_HDWY]' role='measure' type='quantitative' />
+      <column caption='Scheduled Layover Minutes' datatype='real' name='[SCHEDULED_LAYOVER_MINUTES]' role='measure' type='quantitative' />
+      <column caption='Scheduled Time' datatype='datetime' name='[SCHEDULED_TIME]' role='dimension' type='ordinal' />
+      <column caption='Service Abbr' datatype='integer' name='[SERVICE_ABBR]' role='measure' type='quantitative' />
+      <column caption='Stop Cancelled' datatype='integer' name='[STOP_CANCELLED]' role='measure' type='quantitative' />
+      <column caption='Time Point Abbr' datatype='string' name='[TIME_POINT_ABBR]' role='dimension' type='nominal' />
+      <column caption='Trip Edge' datatype='integer' name='[TRIP_EDGE]' role='measure' type='quantitative' />
+      <column caption='Trip Id' datatype='integer' name='[TRIP_ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Headway Data, 8-1-2023 to 9-30-2023.csv' datatype='table' name='[__tableau_internal_object_id__].[Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1838313116510806020]' derivation='Avg' name='[avg:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[OPERATOR]' derivation='Avg' name='[avg:OPERATOR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ROUTE_ABBR]' derivation='Avg' name='[avg:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ROUTE_DIRECTION_NAME]' derivation='None' name='[none:ROUTE_DIRECTION_NAME:nk]' pivot='key' type='nominal' />
+      <column-instance aggregation-param='5' column='[Calculation_1838313116510806020]' derivation='Percentile' name='[prc5:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+      <column-instance aggregation-param='5' column='[OPERATOR]' derivation='Percentile' name='[prc5:OPERATOR:qk]' pivot='key' type='quantitative' />
+      <column-instance aggregation-param='5' column='[ROUTE_ABBR]' derivation='Percentile' name='[prc5:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+      <column-instance aggregation-param='95' column='[Calculation_1838313116510806020]' derivation='Percentile' name='[prc95:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+      <column-instance aggregation-param='95' column='[OPERATOR]' derivation='Percentile' name='[prc95:OPERATOR:qk]' pivot='key' type='quantitative' />
+      <column-instance aggregation-param='95' column='[ROUTE_ABBR]' derivation='Percentile' name='[prc95:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ADHERENCE]' derivation='Sum' name='[sum:ADHERENCE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1838313116510806020]' derivation='Sum' name='[sum:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[OPERATOR]' derivation='Sum' name='[sum:OPERATOR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ROUTE_ABBR]' derivation='Sum' name='[sum:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:ROUTE_DIRECTION_NAME:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;FROM DOWNTOWN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;TO DOWNTOWN&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:OPERATOR:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:Calculation_1838313116510806020:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc5:Calculation_1838313116510806020:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc95:Calculation_1838313116510806020:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:Calculation_1838313116510806020:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:OPERATOR:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc5:OPERATOR:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc95:OPERATOR:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:ROUTE_ABBR:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc5:ROUTE_ABBR:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[prc95:ROUTE_ABBR:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ROUTE_ABBR:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ADHERENCE:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='CALENDAR_ID' />
+        <field-sort-custom-order field='SERVICE_ABBR' />
+        <field-sort-custom-order field='ADHERENCE_ID' />
+        <field-sort-custom-order field='DATE' />
+        <field-sort-custom-order field='ROUTE_ABBR' />
+        <field-sort-custom-order field='BLOCK_ABBR' />
+        <field-sort-custom-order field='OPERATOR' />
+        <field-sort-custom-order field='TRIP_ID' />
+        <field-sort-custom-order field='OVERLOAD_ID' />
+        <field-sort-custom-order field='ROUTE_DIRECTION_NAME' />
+        <field-sort-custom-order field='TIME_POINT_ABBR' />
+        <field-sort-custom-order field='ROUTE_STOP_SEQUENCE' />
+        <field-sort-custom-order field='TRIP_EDGE' />
+        <field-sort-custom-order field='LATITUDE' />
+        <field-sort-custom-order field='LONGITUDE' />
+        <field-sort-custom-order field='SCHEDULED_TIME' />
+        <field-sort-custom-order field='ACTUAL_ARRIVAL_TIME' />
+        <field-sort-custom-order field='ACTUAL_DEPARTURE_TIME' />
+        <field-sort-custom-order field='ADHERENCE' />
+        <field-sort-custom-order field='Calculation_1838313116510806020' />
+        <field-sort-custom-order field='SCHEDULED_HDWY' />
+        <field-sort-custom-order field='ACTUAL_HDWY' />
+        <field-sort-custom-order field='HDWY_DEV' />
+        <field-sort-custom-order field='ADJUSTED_EARLY_COUNT' />
+        <field-sort-custom-order field='ADJUSTED_LATE_COUNT' />
+        <field-sort-custom-order field='ADJUSTED_ONTIME_COUNT' />
+        <field-sort-custom-order field='STOP_CANCELLED' />
+        <field-sort-custom-order field='PREV_SCHED_STOP_CANCELLED' />
+        <field-sort-custom-order field='IS_RELIEF' />
+        <field-sort-custom-order field='DWELL_IN_MINS' />
+        <field-sort-custom-order field='SCHEDULED_LAYOVER_MINUTES' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Headway Data, 8-1-2023 to 9-30-2023.csv' id='Headway Data, 8-1-2023 to 9-30-2023.csv_106A6C9989EC4E99B8BD4D94041A5E29'>
+            <properties context=''>
+              <relation connection='textscan.1im586l08hrau819vspte0jozhq5' name='Headway Data, 8-1-2023 to 9-30-2023.csv' table='[Headway Data, 8-1-2023 to 9-30-2023#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='CALENDAR_ID' ordinal='0' />
+                  <column datatype='integer' name='SERVICE_ABBR' ordinal='1' />
+                  <column datatype='integer' name='ADHERENCE_ID' ordinal='2' />
+                  <column datatype='date' name='DATE' ordinal='3' />
+                  <column datatype='integer' name='ROUTE_ABBR' ordinal='4' />
+                  <column datatype='integer' name='BLOCK_ABBR' ordinal='5' />
+                  <column datatype='integer' name='OPERATOR' ordinal='6' />
+                  <column datatype='integer' name='TRIP_ID' ordinal='7' />
+                  <column datatype='integer' name='OVERLOAD_ID' ordinal='8' />
+                  <column datatype='string' name='ROUTE_DIRECTION_NAME' ordinal='9' />
+                  <column datatype='string' name='TIME_POINT_ABBR' ordinal='10' />
+                  <column datatype='real' name='ROUTE_STOP_SEQUENCE' ordinal='11' />
+                  <column datatype='integer' name='TRIP_EDGE' ordinal='12' />
+                  <column datatype='real' name='LATITUDE' ordinal='13' />
+                  <column datatype='real' name='LONGITUDE' ordinal='14' />
+                  <column datatype='datetime' name='SCHEDULED_TIME' ordinal='15' />
+                  <column datatype='datetime' name='ACTUAL_ARRIVAL_TIME' ordinal='16' />
+                  <column datatype='datetime' name='ACTUAL_DEPARTURE_TIME' ordinal='17' />
+                  <column datatype='real' name='ADHERENCE' ordinal='18' />
+                  <column datatype='real' name='SCHEDULED_HDWY' ordinal='19' />
+                  <column datatype='real' name='ACTUAL_HDWY' ordinal='20' />
+                  <column datatype='real' name='HDWY_DEV' ordinal='21' />
+                  <column datatype='integer' name='ADJUSTED_EARLY_COUNT' ordinal='22' />
+                  <column datatype='integer' name='ADJUSTED_LATE_COUNT' ordinal='23' />
+                  <column datatype='integer' name='ADJUSTED_ONTIME_COUNT' ordinal='24' />
+                  <column datatype='integer' name='STOP_CANCELLED' ordinal='25' />
+                  <column datatype='real' name='PREV_SCHED_STOP_CANCELLED' ordinal='26' />
+                  <column datatype='integer' name='IS_RELIEF' ordinal='27' />
+                  <column datatype='real' name='DWELL_IN_MINS' ordinal='28' />
+                  <column datatype='real' name='SCHEDULED_LAYOVER_MINUTES' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='on time performance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>On time perfornce by Direction and Trip Id </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Headway Data, 8-1-2023 to 9-30-2023' name='federated.1r6dnry16wv94n1ghsqh60egvgwc' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1r6dnry16wv94n1ghsqh60egvgwc'>
+            <column caption='Adherence' datatype='real' name='[ADHERENCE]' role='measure' type='quantitative' />
+            <column caption='Adjusted Early Count' datatype='integer' name='[ADJUSTED_EARLY_COUNT]' role='measure' type='quantitative' />
+            <column caption='Adjusted Late Count' datatype='integer' name='[ADJUSTED_LATE_COUNT]' role='measure' type='quantitative' />
+            <column caption='Adjusted Ontime Count' datatype='integer' name='[ADJUSTED_ONTIME_COUNT]' role='measure' type='quantitative' />
+            <column caption='on time performance' datatype='real' name='[Calculation_1838313116510806020]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[ADJUSTED_ONTIME_COUNT]*100/[ADJUSTED_ONTIME_COUNT]+[ADJUSTED_LATE_COUNT]+[ADJUSTED_EARLY_COUNT]' />
+            </column>
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Operator' datatype='integer' name='[OPERATOR]' role='measure' type='quantitative' />
+            <column caption='Route Abbr' datatype='integer' name='[ROUTE_ABBR]' role='measure' type='quantitative' />
+            <column caption='Route Direction Name' datatype='string' name='[ROUTE_DIRECTION_NAME]' role='dimension' type='nominal' />
+            <column caption='Trip Id' datatype='integer' name='[TRIP_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1838313116510806020]' derivation='Avg' name='[avg:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LATITUDE]' derivation='Avg' name='[avg:LATITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='Avg' name='[avg:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OPERATOR]' derivation='Avg' name='[avg:OPERATOR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ROUTE_ABBR]' derivation='Avg' name='[avg:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LATITUDE]' derivation='None' name='[none:LATITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ROUTE_DIRECTION_NAME]' derivation='None' name='[none:ROUTE_DIRECTION_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TRIP_ID]' derivation='None' name='[none:TRIP_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ADHERENCE]' derivation='Sum' name='[sum:ADHERENCE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1838313116510806020]' derivation='Sum' name='[sum:Calculation_1838313116510806020:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ROUTE_ABBR]' derivation='Sum' name='[sum:ROUTE_ABBR:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:OPERATOR:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:Calculation_1838313116510806020:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:ROUTE_ABBR:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:OPERATOR:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:Calculation_1838313116510806020:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:ROUTE_ABBR:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:Calculation_1838313116510806020:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:OPERATOR:qk]' included-values='non-null' />
+          <natural-sort column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:ROUTE_DIRECTION_NAME:nk]' direction='DESC' />
+          <filter class='quantitative' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ADHERENCE:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:Calculation_1838313116510806020:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ROUTE_ABBR:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]</column>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:Calculation_1838313116510806020:qk]</column>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:OPERATOR:qk]</column>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ADHERENCE:qk]</column>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:Calculation_1838313116510806020:qk]</column>
+            <column>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[sum:ROUTE_ABBR:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[Multiple Values]' value='76' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:LATITUDE:qk]' />
+              <lod column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[avg:LONGITUDE:qk]' />
+              <lod column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:LATITUDE:qk]' />
+              <lod column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:LONGITUDE:qk]' />
+              <color column='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[Multiple Values]</rows>
+        <cols>([federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:ROUTE_DIRECTION_NAME:nk] / ([federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:TRIP_ID:ok] / [federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{C5144DA6-EBE6-43E2-A1AA-58A188E4A607}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='on time performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[:Measure Names]</field>
+            <field>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:LATITUDE:qk]</field>
+            <field>[federated.1r6dnry16wv94n1ghsqh60egvgwc].[none:ROUTE_DIRECTION_NAME:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{32AA1505-A55B-407F-BAB6-B8D33107571C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='on time performance' width='192'>
+      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
+      bC5Hv6vTqVeptXqk8susL2VwrCFSrECjWgYglc5iDAc0Wk08JCKRKLlsmm5Hp1Iq0R2MaDZa
+      RGWbZrtPdzg6aTMai5OMKbRrdfThBE3VSGezjHs9Br02pXKDod7E0WI0Gw0yuRyDbhcfkGSF
+      XC5Dt6PTardQNY14Iklc8+jofY5qFfTugI4+pKd3aLZayLKCohz3a1KZLNN+j1q7hS/JRKIx
+      cpkUeqdDuVSiPxjQaLZQfANTirOzlkdSI8e+40kSUWge1dDHBqqmkclmGfW69PUm5WqLQaeB
+      F4nTqO4xchJ0G7V7vlVy2TS6rtNqtdA0lXgyRVR16XaH1OoVOs0GQztKr1nHdH0Gff3kM0tn
+      cox7x76RlId865RKZQaDAfWWTj7m0R55pJMx9M5x3yyWSBKP+DQrVbpTG01TyWRzDLtdeu06
+      nWaDaqPN1lKEvVt3T74LD8eqVavTGU7QtPux6p7EqlIus35pl/JhkStXr6AqIN0/5lzm+Jjb
+      9475JFYDarUKervJwFQZtBpUWzpLcah1RveO+ThW9XYLJPnFJIAsga1meOfLr1E53EdSNPAc
+      6s0204HOYDyl2ZtwYfsC3qTN2Lxf6yERUXyyqztcvbjMwWENNRLFNsd0un06zTpj0yEWj+P5
+      Eql45KRNz/OJxWNYnszbX3mLerUMkoIquZSPmrjWmKNmj3g8ju86yLIGvo3rH9cuqWoU17F4
+      9Qtv4fZ1Jvf21ywXmdouzWYDZA1V8tnevcpyUqbevpeAkowmuxQ2LnF5O8fBYQMtEsM2hui9
+      Aa1GA8N2icdiOJZFpdVnazUHgO/5xGJxLF/ja195k3q5hCSpKLhUai1sY0itNSARj+FLcRLK
+      mP7YONb6HqoWw7VNXv/il7F6HQzfJxaLUisdYDoerb5JUjXojqakUumTwQgASZJRJZe17cvs
+      bqXYP2yhRWNY0x6d3pBmo0Ehn6VYrSNLEI3FsKzjtj3fJxaLYRHjnS+/wVG5iCSrSLhU6210
+      vUNhKc/dYpVIdv3ed+HwQaxix7H62lfeol55MlaRVJba4T6OL9OuVSisbz84ZjWKa1u89oW3
+      cPo6Ew9i8RiN8uFxrLoTUppNdzBmfTnHYaWOqsgPxcpjeeMSu9u5F9MHqDeapFNJjqoVVrcu
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
